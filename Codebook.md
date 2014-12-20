@@ -45,21 +45,39 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
   </tr>
 </table>
 
-Subject	The ID of the subject.
-tBodyAcc-mean()-X	Mean time for acceleration of body for X direction.
-tBodyAcc-mean()-Y	Mean time for acceleration of body for Y direction.
-tBodyAcc-mean()-Z	Mean time for acceleration of body for Z direction.
-tBodyAcc-std()-X	Standard deviation of time for acceleration of body for X direction.
-tBodyAcc-std()-Y	Standard deviation of time for acceleration of body for Y direction.
-tBodyAcc-std()-Z	Standard deviation of time for acceleration of body for Z direction.
-tGravityAcc-mean()-X	Mean time of acceleration of gravity for X direction.
-tGravityAcc-mean()-Y	Mean time of acceleration of gravity for Y direction.
-tGravityAcc-mean()-Z	Mean time of acceleration of gravity for Z direction.
-tGravityAcc-std()-X	Standard deviation of time of acceleration of gravity for X direction.
-tGravityAcc-std()-Y	Standard deviation of time of acceleration of gravity for Y direction.
-tGravityAcc-std()-Z	Standard deviation of time of acceleration of gravity for Z direction.
-tBodyAccJerk-mean()-X	Mean time of body acceleration jerk for X direction.
-tBodyAccJerk-mean()-Y	Mean time of body acceleration jerk for Y direction
-tBodyAccJerk-mean()-Z	Mean time of body acceleration jerk for Z direction
-tBodyAccJerk-std()-X	Standard deviation of time of body acceleration jerk for X direction.
-tBodyAccJerk-std()-Y	Standard deviation of time of body acceleration jerk for Y direction.
+<td>Subject</td>
+<td>The ID of the subject.</td>
+<td>tBodyAcc-mean()-X</td>
+<td>Mean time for acceleration of body for X direction.</td>
+<td>tBodyAcc-mean()-Y</td>
+<td>Mean time for acceleration of body for Y direction.</td>
+<td>tBodyAcc-mean()-Z</td>
+<td>Mean time for acceleration of body for Z direction.</td>
+<td>tBodyAcc-std()-X</td>
+<td>Standard deviation of time for acceleration of body for X direction.</td>
+<td>tBodyAcc-std()-Y</td>
+<td>Standard deviation of time for acceleration of body for Y direction.</td>
+<td>tBodyAcc-std()-Z</td>	
+<td>Standard deviation of time for acceleration of body for Z direction.</td>
+<td>tGravityAcc-mean()-X</td>	
+<td>Mean time of acceleration of gravity for X direction.</td>
+<td>tGravityAcc-mean()-Y</td>	
+<td>Mean time of acceleration of gravity for Y direction.</td>
+<td>tGravityAcc-mean()-Z</td>
+<td>Mean time of acceleration of gravity for Z direction.</td>
+<td>tGravityAcc-std()-X</td>
+<td>Standard deviation of time of acceleration of gravity for X direction.</td>
+<td>tGravityAcc-std()-Y</td>
+<td>Standard deviation of time of acceleration of gravity for Y direction.</td>
+<td>tGravityAcc-std()-Z</td>
+<td>Standard deviation of time of acceleration of gravity for Z direction.</td>
+<td>tBodyAccJerk-mean()-X</td>
+<td>Mean time of body acceleration jerk for X direction.</td>
+<td>tBodyAccJerk-mean()-Y</td>
+<td>Mean time of body acceleration jerk for Y direction</td>
+<td>tBodyAccJerk-mean()-Z</td>
+<td>Mean time of body acceleration jerk for Z direction</td>
+<td>tBodyAccJerk-std()-X</td>
+<td>Standard deviation of time of body acceleration jerk for X direction.</td>
+<td>tBodyAccJerk-std()-Y</td>
+<td>Standard deviation of time of body acceleration jerk for Y direction.</td>
