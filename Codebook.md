@@ -1,5 +1,6 @@
-Codebook of Getting and Cleaning Data Project
-============================================================
+<h3>Getting and Cleaning Data Project</h3>
+CODEBOOK
+=====================================
 Data Set Information:
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities wearing a smartphone (Samsung Galaxy S II) on the waist.
 The activities are:
