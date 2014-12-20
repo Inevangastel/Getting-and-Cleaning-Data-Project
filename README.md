@@ -1,9 +1,9 @@
-Cleaning-and-Getting-Data-Project
+Cleaning and Getting Data Project
 =================================
 
 The purpose of this project is to demonstrate my ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
 
-Preparation
+<h2> Preparation </h2>
 
 Read the instruction –
 The goal of this project is to prepare tidy data that can be used for later analysis. You will be required to submit: 
