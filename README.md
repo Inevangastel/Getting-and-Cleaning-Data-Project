@@ -5,29 +5,31 @@ The purpose of this project is to demonstrate my ability to collect, work with, 
 
 <h2> Preparation </h2>
 
-<strong>Read</strong> the instruction –
+<strong>Read the instruction –</strong>
 The goal of this project is to prepare tidy data that can be used for later analysis. You will be required to submit: 
 1) a tidy data set as described below, 
 2) a link to a Github repository with your script for performing the analysis, 
 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. 
 4) include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected. 
 
-Read the assignment downloading zipfile --
+<strong>Read the assignment downloading zipfile --</strong>
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-Unzip this file and directories in my working directory.
 
-Look at the structure of the directories and read the files readme.txt  and features_info.txt.
+<strong>Unzip</strong> this file and directories in my working directory.
+<strong>Look at the structure</strong> of the directories and read the files readme.txt  and features_info.txt.
 
-Implementation in R
+<h2>Implementation in R</h2>
 
-Create one R script, called run_analysis.R.
+<strong>Create one R script, called run_analysis.R.</strong>
 
-Read the following files in R
+<strong>Read</strong> the following files in R
 •	features.txt – list of all features
 •	activity_labels.txt – links the class labels with their activity name
 
+ <table>
  featuresList <- features.txt
  activity <- activity_labels.txt
+</table>
 
 Read the training files in R
 
