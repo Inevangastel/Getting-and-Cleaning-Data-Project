@@ -5,7 +5,7 @@ The purpose of this project is to demonstrate my ability to collect, work with, 
 
 <h2> Preparation </h2>
 
-Read the instruction –
+<strong>Read</strong> the instruction –
 The goal of this project is to prepare tidy data that can be used for later analysis. You will be required to submit: 
 1) a tidy data set as described below, 
 2) a link to a Github repository with your script for performing the analysis, 
