@@ -34,10 +34,17 @@ The script gets data from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 <h2>Analysis Variables</h2>
-<table>
-Variable
-Description
-Activity	The activity peformed.
+<table style="width:100%">
+  <tr>
+    <th>Variable</th>
+    <th>Description</th> 
+  </tr>
+  <tr>
+    <td>Activity</td>
+    <td>The activity peformed.</td>
+  </tr>
+</table>
+
 Subject	The ID of the subject.
 tBodyAcc-mean()-X	Mean time for acceleration of body for X direction.
 tBodyAcc-mean()-Y	Mean time for acceleration of body for Y direction.
