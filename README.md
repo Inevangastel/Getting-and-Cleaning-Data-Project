@@ -23,13 +23,13 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 <strong>Create one R script, called run_analysis.R.</strong>
 
 <strong>Read</strong> the following files in R
+<u>
 •	features.txt – list of all features
 •	activity_labels.txt – links the class labels with their activity name
+</u>
 
- <table>
  featuresList <- features.txt
  activity <- activity_labels.txt
-</table>
 
 Read the training files in R
 
