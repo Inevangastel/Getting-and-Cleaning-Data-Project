@@ -61,6 +61,6 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 -	Load library plyr
 -	Use ‘ddply’ for creating the second, independent tidy data set
--	Write the data set to  a tekst file
+-	Write the data set to  a text file
 
 <h2>Push files in GitHub</h2>
