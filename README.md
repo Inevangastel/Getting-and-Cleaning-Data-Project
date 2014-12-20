@@ -15,45 +15,41 @@ The goal of this project is to prepare tidy data that can be used for later anal
 <strong>Read the assignment downloading zipfile --</strong>
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-<strong>Unzip</strong> this file and directories in my working directory.
-<strong>Look at the structure</strong> of the directories and read the files readme.txt  and features_info.txt.
+<strong>Unzip</strong> this file and directories in my working directory. <strong>Look at the structure</strong> of the directories and read the files readme.txt  and features_info.txt.
 
 <h2>Implementation in R</h2>
 
 <strong>Create one R script, called run_analysis.R.</strong>
 
 <strong>Read</strong> the following files in R
-<u>
-•	features.txt – list of all features
-•	activity_labels.txt – links the class labels with their activity name
-</u>
+- features.txt – list of all features
+- activity_labels.txt – links the class labels with their activity name
 
- featuresList <- features.txt
- activity <- activity_labels.txt
+featuresList <- features.txt
+activity <- activity_labels.txt
 
-Read the training files in R
+<strong>Read the training files</strong> in R --
+- train/subject_train.txt – each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+- train/X_train.txt – training set
+- train/y_train.txt – training labels
 
-•	train/subject_train.txt – each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
-•	train/X_train.txt – training set
-•	train/y_train.txt – training labels
+TraningSubjects <- subject_train.txt
+TrainingSet <- X_train.txt
+TrainingLabels <- y_train.txt
 
- TraningSubjects <- subject_train.txt
- TrainingSet <- X_train.txt
- TrainingLabels <- y_train.txt
+<strong>Read the test files</strong> in R
+- test/subject_test.txt – each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+- test/X_test.txt – test set
+- test/y_test.txt – test labels
 
-Read the test files in R
+TestSubjects <- subject_test.txt
+TestSet <- X_test.txt
+TestLabels <- y_test.txt
 
-•	test/subject_test.txt – each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
-•	test/X_test.txt – test set
-•	test/y_test.txt – test labels
+<strong>View files with: view(), head(), etc</strong>
 
- TestSubjects <- subject_test.txt
- TestSet <- X_test.txt
- TestLabels <- y_test.txt
+<h2>Determine strategy for cleaning and tidying</h2>
 
-View files with: view(), head(), etc
-
-Determine strategy for cleaning and tidying
 -	Add activity names to activities
 -	Replace the characters ‘mean’ and ‘std’ in all activity names with ‘Mean’ and ‘StdDev’
 -	Remove invalid characters of the second column of featuresList and replace it with a dot
@@ -61,14 +57,15 @@ Determine strategy for cleaning and tidying
 -	Add column names to the data set
 -	Sort the data set by ‘ActNr’ and by ‘Subject’.
 
-Extract only the measurements on the mean and standard deviation for each measurement
+<h2>Extract only the measurements on the mean and standard deviation for each measurement</h2>
+
 -	Select columns with grep(".*Mean.*|.*Std.*", ColumnNames)
 -	Compute the means for all colums except Subject, ActNr (set) and Activity (label)
 
-Create a second, independent tidy data set with the average of each variable for each activity and each subject.
+<h2>Create a second, independent tidy data set with the average of each variable for each activity and each subject.</h2>
+
 -	Load library plyr
 -	Use ‘ddply’ for creating the second, independent tidy data set
 -	Write the data set to  a tekst file
 
-Push files in GitHub
-
+<h2>Push files in GitHub</h2>
